@@ -1,0 +1,17 @@
+# IMPORTANT: Install PyTorch separately based on your system (CPU/GPU).
+# Follow instructions at: https://pytorch.org/get-started/locally/
+# Example CPU-only install: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+transformers>=4.20.0
+numpy>=1.21.0
+tqdm>=4.62.0
+matplotlib>=3.4.0
+nltk>=3.6.0
+tokenizers>=0.11.0 
+sacremoses>=0.0.43 
+safetensors>=0.4.0
+huggingface-hub>=0.15.0
+filelock>=3.8.0
+requests>=2.20.0
+packaging>=20.0
+regex
